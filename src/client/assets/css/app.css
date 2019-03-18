@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+body,html{
+    height: 100%;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
+
+/* Form */
+.has-error {
+    color: red;
+}
+
+#remembermeLabel{
+    padding-top: 5px;
+    color: black;
+}
+
+#forgotpass{
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:slategrey;
+}
+.generic-container {
+	width: 60%;
+	margin-left: 210px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+    box-shadow: 0 0 30px black;
+    background-color: white;
+}
+
+.cardAdd{
+    padding-top: 10px;
+    padding-left: 15px;
+    border-radius: 8px;
+    width: 30%;
+}
+.addButton{
+    margin-top: 3px;
+    
+}
+
+#sendAllButton{
+    margin-left: 900px;
+    margin-top: -100px;
+}
+
+
+.error404{
+    color: red;
+    text-align: center
+}
+
+/* ================ page newCandidate =================== */
+
+.headerEmployeeCreate {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.candidateInputHeader {
+    font-size: 28px;
+}
+
+.workTypeHeader {
+    margin-bottom: 0px;
+}
+
+.socialMedia{
+    font-weight: bold;
+}
+
+.createCandidateBtn {
+    margin-bottom: 20px;
+}
+
+/* ================ page Home =================== */
+
+.homeHeader {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.devType {
+    margin: 30px;
+    border-radius: 30px;  
+    padding: 30px;  
+}
+
+.devType:hover {
+    cursor: pointer;
+}
+
+/* ================ page Employee =================== */
+
+.employeeMsg {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* ================ Header =================== */
+
+.userHeader > .nav-link {
+    font-size: 20px;
+    
+}
+
+/* ================ nonFunctional =================== */
+
+.nonFunctionalHeader {
+    margin-top: 150px;
+    text-align: center;
+}
